@@ -1,0 +1,17 @@
+---
+const {data} = Astro.props
+---
+<div class="card w-96 max-h-64 bg-base-100 shadow-xl image-full mt-5">
+    <figure>
+        <img src={data.image} alt="ASTRO" />
+    </figure>
+    <div class="card-body">
+        <h2 class="card-title">{data.title}</h2>
+        <p>{data.description}</p>
+        <div class="card-actions justify-end">
+            <a href={data.link}>
+                <button class="btn btn-primary">Visit</button>
+            </a>
+        </div>
+    </div>
+</div>
