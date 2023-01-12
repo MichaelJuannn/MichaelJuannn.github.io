@@ -3,23 +3,32 @@
 		{
 			"title": "Gelist",
 			"description": "A fullstack serverless App created with NextJS,Tailwind,React,Prisma and Planetscale MySQL Database",
-			"image": ""
+			"image": "../public/next.png",
+			"link": "https://github.com/MichaelJuannn/gelist"
 		},
 		{
 			"title": "Lazylist",
-			"description": "A Firebase based app that uses bootstrap and firestore database. Uses Firebase Hosting to serve as CDN"
-		},
-		{
-			"title": "Meet My Health 👩‍⚕️",
-			"description": "An App that built with Laravel PHP framework and MYSQL database to create better appointment scheduling between doctor and patient"
-		},
-		{
-			"title": "Primarly FUN Number",
-			"description": "Jamstack React + Tailwind App with algorithm to find next prime number and check the prime number"
+			"description": "A Firebase based app that uses bootstrap and firestore database. Uses Firebase Hosting to serve as CDN",
+			"image": "../public/firebase.png",
+			"link": "#"
 		},
 		{
 			"title": "Shadowpedia 🐱‍👤",
-			"description": "Static Site built with NEXTJS + Tailwind and deployed on the cloudflare cdn edge. Shadowpedia gives you access to many information about popular games like Valorant."
+			"description": "Static Site built with NEXTJS + Tailwind and deployed on the cloudflare edge.",
+			"image": "../public/next.png",
+			"link": "https://github.com/MichaelJuannn/shadowpedia"
+		},
+		{
+			"title": "Meet My Health 👩‍⚕️",
+			"description": "An App that built with Laravel PHP framework and MYSQL database to create better appointment scheduling between doctor and patient",
+			"image": "../public/laravel.png",
+			"link": "https://github.com/MichaelJuannn/meetmyhealth"
+		},
+		{
+			"title": "Primarly FUN Number",
+			"description": "Jamstack React + Tailwind App with algorithm to find next prime number and check the prime number",
+			"image": "../public/react.png",
+			"link": "https://github.com/MichaelJuannn/prime"
 		}
 	]
 }

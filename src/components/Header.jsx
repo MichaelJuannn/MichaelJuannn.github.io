@@ -5,7 +5,7 @@ export default function Header() {
 				<a className="btn btn-ghost normal-case text-xl">Juan Michael</a>
 			</div>
 			<div className="flex-none mr-5">
-				<button className="btn btn-primary">About</button>
+				<button className="btn btn-primary hover:rounded-full">About</button>
 			</div>
 		</div>
 	);
