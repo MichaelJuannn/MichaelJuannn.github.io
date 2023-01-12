@@ -1,0 +1,25 @@
+{
+	"data": [
+		{
+			"title": "Gelist",
+			"description": "A fullstack serverless App created with NextJS,Tailwind,React,Prisma and Planetscale MySQL Database",
+			"image": ""
+		},
+		{
+			"title": "Lazylist",
+			"description": "A Firebase based app that uses bootstrap and firestore database. Uses Firebase Hosting to serve as CDN"
+		},
+		{
+			"title": "Meet My Health 👩‍⚕️",
+			"description": "An App that built with Laravel PHP framework and MYSQL database to create better appointment scheduling between doctor and patient"
+		},
+		{
+			"title": "Primarly FUN Number",
+			"description": "Jamstack React + Tailwind App with algorithm to find next prime number and check the prime number"
+		},
+		{
+			"title": "Shadowpedia 🐱‍👤",
+			"description": "Static Site built with NEXTJS + Tailwind and deployed on the cloudflare cdn edge. Shadowpedia gives you access to many information about popular games like Valorant."
+		}
+	]
+}
