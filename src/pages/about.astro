@@ -1,0 +1,25 @@
+---
+import BaseHead from "../components/BaseHead.astro"
+import Header from "../components/Header.astro"
+import { SITE_TITLE, SITE_DESCRIPTION } from '../config';
+---
+<!DOCTYPE html>
+<html lang="en" data-theme="black">
+<head>
+    <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION}/>
+</head>
+<body>
+    <Header />
+    <div class="text-slate-100">
+        <div class="w-48 mx-auto my-5"><img class="rounded-full" src="/profil.jpg" alt="" srcset=""></div>
+        <h2 class="text-center text-3xl">Hi There </h2>
+        <div class="md:mx-48 text-center">I'm somekind of person that loves to play around and learn about new things. Feel free to contact me, I'm more than happy to have a talk with you 🤗</div>
+    </div>
+    <div class="mt-5 flex justify-center align-baseline">
+        <a href="https://github.com/MichaelJuannn" class="tooltip" data-tip="GitHub"><img class="mx-2 w-10 invert" src="/github-icon.svg" alt="" srcset=""></a>
+        <a href="mailto:juan600d@gmail.com" class="tooltip" data-tip="Email"><img class="mx-2 w-10 invert" src="/email-icon.svg" alt="" srcset=""></a>
+        <a href="https://discordapp.com/users/510410886104743936" class="tooltip" data-tip="Discord"><img class="mx-2 w-10" src="/discord.svg" alt="" srcset=""></a>
+        <a href="https://www.linkedin.com/in/juan-michael-4466a6243/" class="tooltip" data-tip="LinkedIn"><img class="mx-2 w-10 invert" src="/linked.svg" alt="" srcset=""></a>
+    </div>
+</body>
+</html>
