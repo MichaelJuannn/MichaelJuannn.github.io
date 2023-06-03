@@ -1,33 +1,36 @@
 ---
-import BaseHead from "../components/BaseHead.astro"
-import Header from "../components/Header.astro"
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
 import { SITE_TITLE, SITE_DESCRIPTION } from '../config';
-import Project from "../components/Project.astro";
-import projectdata from "../components/projectdata.json"
+import Project from '../components/Project.astro';
+import projectdata from '../components/projectdata.json';
 
-const {data} = projectdata
+const { data } = projectdata;
 ---
 
 <!DOCTYPE html>
-<html lang="en" data-theme="black">
-<head>
-    <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
-</head>
-<body>
-    <Header />
-    <div>
-        <h1 class="mt-16 text-5xl text-primary-content capitalize md:text-8xl md:w-3/4">
-                Builder that sometimes games and play basketball
-        </h1>
-    </div>
-    <div>
-        <h2 class="md:w-1/4 ml-auto mt-4 mr-16 text-slate-300">
-            I'm Juan, an undergrad informatics engineering at State University of Malang.
-            Experienced with Fullstack App Development. I build things
-        </h2>
-    </div>
-    <div class="mt-10 grid grid-cols-1 content-center lg:grid-cols-3">
-        {data.map((projectData) => <Project data={projectData}/>)}
-    </div>
-</body>
+<html lang='en' data-theme='black'>
+    <head>
+        <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+    </head>
+    <body>
+        <Header />
+        <div>
+            <h1
+                class='mt-16 text-5xl text-primary-content capitalize md:text-8xl md:w-3/4'
+            >
+                You can call me Juan and We can learn something together
+            </h1>
+        </div>
+        <div>
+            <h2 class='md:w-1/4 ml-auto mt-4 mr-16 text-slate-300'>
+                I'm Juan, an undergrad informatics engineering at State
+                University of Malang. Experienced with Fullstack App
+                Development. I build things
+            </h2>
+        </div>
+        <div class='mt-10 grid grid-cols-1 content-center lg:grid-cols-3'>
+            {data.map((projectData) => <Project data={projectData} />)}
+        </div>
+    </body>
 </html>
