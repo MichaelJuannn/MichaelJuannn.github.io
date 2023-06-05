@@ -4,7 +4,7 @@
 			"title": "Gelist",
 			"description": "A fullstack serverless App created with NextJS,Tailwind,React,Prisma and Planetscale MySQL Database",
 			"image": "/next.png",
-			"link": "https://github.com/MichaelJuannn/gelist"
+			"link": "https://gelist.vercel.app/"
 		},
 		{
 			"title": "Lazylist",
@@ -16,7 +16,7 @@
 			"title": "Shadowpedia 🐱‍👤",
 			"description": "Static Site built with NEXTJS + Tailwind and deployed on the cloudflare edge.",
 			"image": "/next.png",
-			"link": "https://github.com/MichaelJuannn/shadowpedia"
+			"link": "https://shadowpedia.pages.dev/"
 		},
 		{
 			"title": "Meet My Health 👩‍⚕️",
@@ -28,7 +28,25 @@
 			"title": "Primarly FUN Number",
 			"description": "Jamstack React + Tailwind App with algorithm to find next prime number and check the prime number",
 			"image": "/react.png",
-			"link": "https://github.com/MichaelJuannn/prime"
+			"link": "https://primechecker.vercel.app/"
+		},
+		{
+			"title": "Medlab",
+			"description": "Full Stack Application with PostgreSQL and supabase to give information about medicine scientifically",
+			"image": "/next.png",
+			"link": "https://methlab.vercel.app/"
+		},
+		{
+			"title": "HelloMed",
+			"description": "Integrating 4 apps with 4 different database using NextJS and React Query",
+			"image": "/next.png",
+			"link": "https://hellomed.vercel.app/"
+		},
+		{
+			"title": "Asessment Link",
+			"description": "An app companion for mobile app TaskBloom",
+			"image": "/next.png",
+			"link": "https://asessmentweb.vercel.app/"
 		}
 	]
 }
